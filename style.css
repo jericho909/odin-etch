@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1A1D;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#title {
+    color: #E3E2DF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    background-color: #4E4E50;
+}
+
+#main,
+#leftMenu {
+    display: flex;
+}
+
+#main {
+    flex: 2;
+}
+
+#leftMenu {
+    flex-direction: column;
+    background-color: #6F2232;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #1A1A1D;
+    color: #E3E2DF;
+    padding: 16px;
+    text-align: center;
+    margin: 4px 2px;
+    gap: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#buttonOne:hover {
+    background-color: #5D001E;
+}
+
+#buttonTwo:hover {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    color: #1A1A1D;
+
+}
+
+#buttonThree:hover {
+    background-color:#E3E2DF;
+    color: #1A1A1D;
+}
+
+#footer {
+    background-color: #4E4E50;
+    color: #E3E2DF;
+    padding: 16px;
+    text-align: center;
+}
+
+
+
+
