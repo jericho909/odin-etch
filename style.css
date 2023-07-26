@@ -17,7 +17,8 @@ body {
 }
 
 #main,
-#leftMenu {
+#leftMenu,
+#rightMenu {
     display: flex;
 }
 
@@ -25,7 +26,8 @@ body {
     flex: 2;
 }
 
-#leftMenu {
+#leftMenu,
+#rightMenu {
     flex-direction: column;
     background-color: #6F2232;
     padding: 25px;
@@ -60,9 +62,10 @@ button {
 }
 
 #gridContainer {
-    background-color: #E3E2DF;
+    
     display: flex;
     flex-wrap: wrap;
+      
 }
 
 #footer {
