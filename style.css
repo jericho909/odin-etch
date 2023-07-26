@@ -41,7 +41,7 @@ button {
     margin: 4px 2px;
     gap: 10px;
     transition-duration: 0.4s;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 #buttonOne:hover {
@@ -57,6 +57,12 @@ button {
 #buttonThree:hover {
     background-color:#E3E2DF;
     color: #1A1A1D;
+}
+
+#gridContainer {
+    background-color: #E3E2DF;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #footer {
